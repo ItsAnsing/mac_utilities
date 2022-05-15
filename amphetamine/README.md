@@ -9,5 +9,5 @@ Quickly start a keep-awake session from Amphetamine's menu to keep your Mac awak
 - While a file is downloading
 - While a specific app is running
 
-**App Store Link**
+**App Store Link**  
 [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)

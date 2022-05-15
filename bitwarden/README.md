@@ -5,3 +5,6 @@ Bitwarden is a free and open-source password management service that stores sens
 The best part is - it is **Open Source**!
 
 [Download Here](https://bitwarden.com)
+
+**App Store Link**  
+[Bitwarden](https://apps.apple.com/us/app/bitwarden-password-manager/id1137397744)
