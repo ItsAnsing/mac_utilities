@@ -7,3 +7,4 @@ List of some of the apps and utility scripts I use to customize my Mac. Let's ge
 3. [Bitwarden](bitwarden/README.md)
 4. [FlyCut](flycut/README.md)
 5. [HazeOver](hazeover/README.md)
+6. [Notion](notion/README.md)
