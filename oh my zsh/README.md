@@ -6,7 +6,7 @@ Oh My Zsh is a delightful, open source, community-driven framework for managing 
 
 ### Favorite Theme
 
-[Passion Theme](https://github.com/ChesterYue/ohmyzsh-theme-passion)
+[Passion Theme](https://github.com/ChesterYue/ohmyzsh-theme-passion)  
 [Passion Modified Theme](passion-modified.zsh-theme)
 
 ### MacOS
