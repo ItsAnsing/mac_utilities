@@ -104,3 +104,20 @@ Description: SQLite Viewer for VSCode
 Version: 0.1.5  
 Publisher: Florian Klampfer  
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer  
+
+## Path Intellisense
+Name: Path Intellisense  s
+Id: christian-kohler.path-intellisense  
+Description: Visual Studio Code plugin that autocompletes filenames  
+Version: 2.8.0  
+Publisher: Christian Kohler  
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense  
+
+## Material Icon Theme
+Name: Material Icon Theme  
+Id: PKief.material-icon-theme  
+Description: Material Design Icons for Visual Studio Code  
+Version: 4.17.0  
+Publisher: Philipp Kief  
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme  
+
