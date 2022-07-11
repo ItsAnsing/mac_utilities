@@ -61,8 +61,8 @@ function directory() {
 # git
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_no_bold[blue]%}git(%{$fg_no_bold[magenta]%}";
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} ";
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg_no_bold[blue]%}) 🔥";
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_no_bold[blue]%})";
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg_no_bold[blue]%}) :(";
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_no_bold[blue]%}) :)";
 
 function update_git_status() {
     GIT_STATUS=$(git_prompt_info);
@@ -205,7 +205,17 @@ TRAPALRM() {
     fi
 }
 
+function get_git_sha() {
+    local git_sha=$(git rev-parse --short HEAD 2>/dev/null);
+    if [ "$git_sha" = "" ];
+    then
+        git_sha="$(git rev-parse HEAD 2>/dev/null)";
+    fi
+    echo "[${git_sha}]";
+}
+
+
 
 # prompt
 # PROMPT='$(real_time) $(login_info) $(directory) $(git_status)$(command_status) ';
-PROMPT='$(real_time) $(directory) $(git_status)$(command_status) ';
+PROMPT='$(real_time) $(directory) $(git_status) $(get_git_sha) $(command_status) ';

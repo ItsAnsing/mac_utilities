@@ -121,3 +121,11 @@ Version: 4.17.0
 Publisher: Philipp Kief  
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme  
 
+## ToDo Tree
+Name: Todo Tree  
+Id: Gruntfuggly.todo-tree  
+Description: Show TODO, FIXME, etc. comment tags in a tree view  
+Version: 0.0.215  
+Publisher: Gruntfuggly  
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree  
+
