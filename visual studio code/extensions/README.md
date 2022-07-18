@@ -129,3 +129,13 @@ Version: 0.0.215
 Publisher: Gruntfuggly  
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree  
 
+
+## Bookmarks  
+Name: Bookmarks  
+Id: alefragnani.Bookmarks  
+Description: Mark lines and jump to them  
+Version: 13.3.0  
+Publisher: Alessandro Fragnani  
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks  
+
+
